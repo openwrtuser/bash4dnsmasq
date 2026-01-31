@@ -38,7 +38,10 @@ https://github.com/badmojr/1Hosts/releases/download/latest/1hosts-Xtra_dnsmasq.c
 
 ==================================================
 
-Prerequisite: Dnsmasq, wget, sed, mawk must be installed.
+Prerequisites:
+
+Dnsmasq, wget, sed, mawk must be installed.
+
 For Debian-like system, use the following command to install them:
 
 sudo apt-get install dnsmasq wget sed mawk
