@@ -1,4 +1,4 @@
-A simple bash script to block AGGRESSIVELY unwanted content via dnsmasq (ads, trackers, adult content, malware, etc) 
+A simple bash script to block AGGRESSIVELY unwanted content via dnsmasq (ads, trackers, adult content, malware, etc).
 
 This script downloads various filters for Dnsmasq from Internet, processes them, combines them into one file, and replaces existing /etc/dnsmasq.conf, with dnsmasq service restarting.
 
@@ -39,6 +39,6 @@ https://github.com/badmojr/1Hosts/releases/download/latest/1hosts-Xtra_dnsmasq.c
 ==================================================
 
 Prerequisite: Dnsmasq, wget, sed, mawk must be installed.
-For Debian-like system, use the following command to install it:
+For Debian-like system, use the following command to install them:
 
 sudo apt-get install dnsmasq wget sed mawk
