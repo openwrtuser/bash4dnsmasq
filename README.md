@@ -36,7 +36,7 @@ https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/dnsmasq/
 1hosts Xtra (ads, trackers, malware, etc)
 https://github.com/badmojr/1Hosts/releases/download/latest/1hosts-Xtra_dnsmasq.conf
 
-==================================================
+--------------------------------------------------------------------------------------
 
 Prerequisites:
 
