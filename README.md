@@ -45,3 +45,37 @@ Dnsmasq, wget, sed, mawk must be installed.
 For Debian-like system, use the following command to install them:
 
 sudo apt-get install dnsmasq wget sed mawk
+
+--------------------------------------------------------------------------------------
+
+The scripts can be scheduled to run daily with cron, at a prescribed time (e.g. 6:30am).
+
+In Debian Linuxs it can be done this way:
+
+Copy the script to /etc/cron.daily
+
+Under root, run
+
+crontab -e
+
+or
+
+sudo crontab -e
+
+Add last line:
+
+30 06 * * * /etc/cron.daily/update.sh
+
+Save, and restart cron:
+
+sudo systemctl restart cron
+
+or, simply reboot PC.
+
+--------------------------------------------------------------------------------------
+
+Use the scripts at your own risk. Some legitimate websites could stop working. (Again, it is a very AGGRESSIVE set of filters.)
+
+In this case, you may try using less restrictive original filters (e.g. 1Hosts Lite, HaGeZi Multi PRO, Small oisd, etc.) in the script.
+
+Modify the script to suit your needs.
