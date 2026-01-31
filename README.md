@@ -48,9 +48,9 @@ sudo apt-get install dnsmasq wget sed mawk
 
 --------------------------------------------------------------------------------------
 
-The scripts can be scheduled to run daily with cron, at a prescribed time (e.g. 6:30am).
+The script can be scheduled to run daily with cron, at a prescribed time (e.g. 6:30am).
 
-In Debian Linuxs it can be done this way:
+In Debian Linux it can be done this way:
 
 Copy the script to /etc/cron.daily
 
