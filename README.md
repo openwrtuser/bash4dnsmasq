@@ -1,4 +1,6 @@
-This simple bash script downloads various filters for Dnsmasq from Internet, processes them, combines them into one file, and replaces existing /etc/dnsmasq.conf, with dnsmasq service restarting.
+A simple bash script to block AGGRESSIVELY unwanted content via dnsmasq (ads, trackers, adult content, malware, etc) 
+
+This script downloads various filters for Dnsmasq from Internet, processes them, combines them into one file, and replaces existing /etc/dnsmasq.conf, with dnsmasq service restarting.
 
 This file also blocks connections to all DoH (DNS over HTTPS) servers, to avoid bypassing itself via DoH.
 
