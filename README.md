@@ -32,7 +32,7 @@ Hagezi TIF (various dangerous content)
 https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/dnsmasq/tif.txt
 
 1hosts Xtra (ads, trackers, malware, etc)
-wget https://github.com/badmojr/1Hosts/releases/download/latest/1hosts-Xtra_dnsmasq.conf
+https://github.com/badmojr/1Hosts/releases/download/latest/1hosts-Xtra_dnsmasq.conf
 
 ==================================================
 
