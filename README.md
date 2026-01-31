@@ -7,7 +7,7 @@ This file also blocks connections to all DoH (DNS over HTTPS) servers, to avoid 
 -----------------------------------------------------------------------------------------------------
 
 Filters used:
-
+--
 Hagezi DoH servers
 https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/dnsmasq/doh.txt
 
@@ -41,7 +41,7 @@ https://github.com/badmojr/1Hosts/releases/download/latest/1hosts-Xtra_dnsmasq.c
 --------------------------------------------------------------------------------------
 
 Prerequisites:
-
+--
 Dnsmasq, wget, sed, mawk must be installed.
 
 For Debian-like system, use the following command to install them:
@@ -51,7 +51,7 @@ sudo apt-get install dnsmasq wget sed mawk
 --------------------------------------------------------------------------------------
 
 The script can be scheduled to run daily with cron, at a prescribed time (e.g. 6:30am).
-
+-
 In Debian Linux it can be done this way:
 
 Copy the script to /etc/cron.daily
@@ -76,7 +76,7 @@ or, simply reboot PC.
 
 --------------------------------------------------------------------------------------
 
-Use the scripts at your own risk. Some legitimate websites could stop working. (Again, it is a very AGGRESSIVE set of filters.)
+Use the script at your own risk. Some legitimate websites could stop working. (Again, it is a very AGGRESSIVE set of filters.)
 
 In this case, you may try using less restrictive original filters (e.g. 1Hosts Lite, HaGeZi Multi PRO, Small oisd, etc.) in the script.
 
